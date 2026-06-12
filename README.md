@@ -7,15 +7,11 @@ A Base Mini App for three simple onchain quest markers: Mark Start, Mark Progres
 Create `.env.local` with:
 
 ```bash
-NEXT_PUBLIC_CONTRACT_ADDRESS=0xYourDeployedMicroQuestBoard
-NEXT_PUBLIC_BASE_DATA_SUFFIX=0xYourErc8021EncodedString
+NEXT_PUBLIC_CONTRACT_ADDRESS=0xe2c3b4b5b4c47a4575f31fa9271208ed750534bc
+NEXT_PUBLIC_BASE_DATA_SUFFIX=0x62635f3772616735766c6a0b0080218021802180218021802180218021
 ```
 
-Then replace the hardcoded Base verify token in `app/layout.tsx`:
-
-```html
-<meta name="base:app_id" content="REPLACE_WITH_BASE_DEV_VERIFY_TOKEN" />
-```
+Base build code: `bc_7rag5vlj`
 
 The app intentionally uses Wagmi native configuration with only `injected()` and `coinbaseWallet()` connectors. It does not use RainbowKit or `getDefaultConfig`.
 

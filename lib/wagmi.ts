@@ -2,8 +2,11 @@ import { http, createConfig } from "wagmi";
 import { base } from "wagmi/chains";
 import { coinbaseWallet, injected } from "wagmi/connectors";
 
+export const baseBuildCode = "bc_7rag5vlj";
+
 export const dataSuffix = (
-  process.env.NEXT_PUBLIC_BASE_DATA_SUFFIX || "0x"
+  process.env.NEXT_PUBLIC_BASE_DATA_SUFFIX ||
+  "0x62635f3772616735766c6a0b0080218021802180218021802180218021"
 ) as `0x${string}`;
 
 export const wagmiConfig = createConfig({

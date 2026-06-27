@@ -96,3 +96,11 @@ Create a production build:
 ```bash
 npm run build
 ```
+
+## Configuration Reference
+
+### `NEXT_PUBLIC_CONTRACT_ADDRESS`
+
+The deployed `MicroQuestBoard` contract address on Base.
+
+Update this value if the contract is redeployed.

@@ -125,3 +125,11 @@ Before publishing the app, confirm the following:
 - Verify the onchain data suffix in base.dev.
 
 ## Important Behavior
+
+The app is intentionally limited to the three quest marker actions.
+
+No additional buttons should call `writeContract` unless the contract and user flow are intentionally expanded.
+
+This helps keep the quest board behavior predictable and easy to review.
+
+## Project Structure Notes

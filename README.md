@@ -119,3 +119,9 @@ Before publishing the app, confirm the following:
 - Set `NEXT_PUBLIC_CONTRACT_ADDRESS` to the deployed contract address.
 - Add the required base.dev verification value directly in `app/layout.tsx`.
 - Set `NEXT_PUBLIC_BASE_DATA_SUFFIX` to the ERC-8021 encoded attribution string.
+- Deploy the app to Vercel.
+- Disable Deployment Protection so the app can be embedded by Base App.
+- Verify the offchain meta tag in base.dev.
+- Verify the onchain data suffix in base.dev.
+
+## Important Behavior

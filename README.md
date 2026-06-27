@@ -66,3 +66,11 @@ NEXT_PUBLIC_BASE_DATA_SUFFIX=0x62635f3772616735766c6a0b0080218021802180218021802
 ```
 
 Base build code:
+
+```text
+bc_7rag5vlj
+```
+
+## Installation
+
+Install project dependencies:

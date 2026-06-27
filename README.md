@@ -110,3 +110,12 @@ Update this value if the contract is redeployed.
 The ERC-8021 encoded attribution string used for Base App verification.
 
 Use the configured value required for the deployed app.
+
+## Deployment Checklist
+
+Before publishing the app, confirm the following:
+
+- Deploy `MicroQuestBoard` on Base.
+- Set `NEXT_PUBLIC_CONTRACT_ADDRESS` to the deployed contract address.
+- Add the required base.dev verification value directly in `app/layout.tsx`.
+- Set `NEXT_PUBLIC_BASE_DATA_SUFFIX` to the ERC-8021 encoded attribution string.

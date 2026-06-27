@@ -88,3 +88,11 @@ npm run dev
 ```
 
 After the server starts, open the local URL shown in your terminal.
+
+## Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```

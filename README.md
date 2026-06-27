@@ -57,3 +57,12 @@ This keeps the wallet integration lightweight and aligned with the app鈥檚 int
 ## Environment Setup
 
 Create a `.env.local` file in the project root.
+
+Add the following values:
+
+```bash
+NEXT_PUBLIC_CONTRACT_ADDRESS=0xe2c3b4b5b4c47a4575f31fa9271208ed750534bc
+NEXT_PUBLIC_BASE_DATA_SUFFIX=0x62635f3772616735766c6a0b0080218021802180218021802180218021
+```
+
+Base build code:

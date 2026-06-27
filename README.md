@@ -80,3 +80,11 @@ npm install
 ```
 
 ## Local Development
+
+Start the local development server:
+
+```bash
+npm run dev
+```
+
+After the server starts, open the local URL shown in your terminal.

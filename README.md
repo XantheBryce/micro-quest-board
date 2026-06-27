@@ -28,3 +28,11 @@ The app is built to run as a Base Mini App and to support Base App embedding.
 - Three onchain quest markers
 - Base Mini App support
 - Environment-based contract configuration
+- Native Wagmi setup
+- Minimal connector configuration
+- No RainbowKit dependency
+- No `getDefaultConfig` usage
+
+## Quest Actions
+
+The board includes three primary actions:

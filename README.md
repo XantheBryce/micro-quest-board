@@ -133,3 +133,11 @@ No additional buttons should call `writeContract` unless the contract and user f
 This helps keep the quest board behavior predictable and easy to review.
 
 ## Project Structure Notes
+
+The README does not assume a specific file structure beyond the known `app/layout.tsx` configuration point.
+
+Review the source files directly before changing connector setup, contract calls, or Base Mini App metadata.
+
+## Development Notes
+
+Keep the Wagmi setup native unless there is a clear reason to change it.

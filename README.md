@@ -141,3 +141,11 @@ Review the source files directly before changing connector setup, contract calls
 ## Development Notes
 
 Keep the Wagmi setup native unless there is a clear reason to change it.
+
+If the contract address changes, update `.env.local` for local development and the deployment environment for production.
+
+If the Base data suffix changes, update the environment value and re-run the Base App verification steps.
+
+## License
+
+No license information is specified in the original project notes.

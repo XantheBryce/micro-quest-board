@@ -51,3 +51,9 @@ The configured connectors are:
 
 - `injected()`
 - `coinbaseWallet()`
+
+This keeps the wallet integration lightweight and aligned with the app鈥檚 intended Base Mini App usage.
+
+## Environment Setup
+
+Create a `.env.local` file in the project root.

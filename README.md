@@ -104,3 +104,9 @@ npm run build
 The deployed `MicroQuestBoard` contract address on Base.
 
 Update this value if the contract is redeployed.
+
+### `NEXT_PUBLIC_BASE_DATA_SUFFIX`
+
+The ERC-8021 encoded attribution string used for Base App verification.
+
+Use the configured value required for the deployed app.

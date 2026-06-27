@@ -74,3 +74,9 @@ bc_7rag5vlj
 ## Installation
 
 Install project dependencies:
+
+```bash
+npm install
+```
+
+## Local Development

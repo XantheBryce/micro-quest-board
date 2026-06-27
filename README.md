@@ -42,3 +42,12 @@ The board includes three primary actions:
 3. **Mark Done**
 
 Only these three board buttons call `writeContract`.
+
+## Tech Notes
+
+The app intentionally uses Wagmi native configuration.
+
+The configured connectors are:
+
+- `injected()`
+- `coinbaseWallet()`

@@ -50,3 +50,12 @@ This keeps the interaction model clear, predictable, and easy to review.
 The app intentionally uses native Wagmi configuration.
 
 The configured connectors are:
+
+- `injected()`
+- `coinbaseWallet()`
+
+This keeps the wallet integration lightweight and aligned with the intended Base Mini App usage.
+
+## Environment Setup
+
+Create a `.env.local` file in the project root.

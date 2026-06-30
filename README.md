@@ -32,3 +32,13 @@ The app is built to run as a Base Mini App and support embedding in the Base App
 - Minimal connector configuration
 - No RainbowKit dependency
 - No `getDefaultConfig` usage
+
+## Quest Actions
+
+The board includes three primary actions:
+
+1. **Mark Start**
+2. **Mark Progress**
+3. **Mark Done**
+
+Only these three board buttons call `writeContract`.

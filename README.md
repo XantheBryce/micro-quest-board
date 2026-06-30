@@ -42,3 +42,11 @@ The board includes three primary actions:
 3. **Mark Done**
 
 Only these three board buttons call `writeContract`.
+
+This keeps the interaction model clear, predictable, and easy to review.
+
+## Tech Notes
+
+The app intentionally uses native Wagmi configuration.
+
+The configured connectors are:

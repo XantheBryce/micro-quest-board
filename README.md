@@ -15,3 +15,11 @@ GitHub: https://github.com/XantheBryce/micro-quest-board.git
 ## Overview
 
 MicroQuestBoard is intentionally small and focused.
+
+It is designed around a single quest board flow with three actions.
+
+Each action corresponds to a board button and writes to the configured contract.
+
+The app is built to run as a Base Mini App and support embedding in the Base App.
+
+## Features
